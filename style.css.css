@@ -1,0 +1,32 @@
+#controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#controls button {
+    background: #00ffcc;
+    border: 2px solid #004d40;
+    color: #000;
+    font-size: 1.5rem;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00e6b8;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#controls button:hover {
+    background: #004d40;
+    color: #fff;
+}
+
+#controls #fire-btn {
+    background: #ff1744;
+    box-shadow: 0 0 10px #ff4081;
+}
+
+#controls #fire-btn:hover {
+    background: #c51162;
+}
